@@ -22,6 +22,7 @@ export interface GameState {
     timer: number;
     strikes: number;
     score: number;
+    streak: number;
 
     // Selection state
     selectedSyllables: [Syllable | null, Syllable | null, Syllable | null];

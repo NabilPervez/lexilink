@@ -12,6 +12,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
     timer: 60,
     strikes: 0,
     score: 0,
+    streak: 0,
 
     selectedSyllables: [null, null, null],
     feedback: null,
@@ -23,12 +24,13 @@ export const useGameStore = create<GameStore>((set, get) => ({
         timer: 60,
         strikes: 0,
         score: 0,
+        streak: 0,
         selectedSyllables: [null, null, null],
         feedback: null,
     }),
 
     selectSyllable: (syllable) => {
-        const { status, selectedSyllables, puzzles, currentRound, strikes } = get();
+        const { status, selectedSyllables, puzzles, currentRound, strikes, streak } = get();
         if (status !== 'playing') return;
 
         // Update selection for the specific column
@@ -45,8 +47,9 @@ export const useGameStore = create<GameStore>((set, get) => ({
             if (formedWord === currentPuzzle.targetWord.toLowerCase()) {
                 // Correct
                 const isLastRound = currentRound === 9; // 10 rounds (0-9)
+                const newStreak = streak + 1;
 
-                set({ feedback: 'correct' });
+                set({ feedback: 'correct', streak: newStreak });
 
                 setTimeout(() => {
                     if (isLastRound) {
@@ -56,14 +59,14 @@ export const useGameStore = create<GameStore>((set, get) => ({
                             currentRound: state.currentRound + 1,
                             selectedSyllables: [null, null, null],
                             feedback: null,
-                            score: state.score + 100 + (state.timer * 10), // Example scoring
+                            score: state.score + 100 + (state.timer * 10) + (newStreak * 50), // Bonus for streak
                         }));
                     }
                 }, 500);
             } else {
                 // Incorrect
                 const newStrikes = strikes + 1;
-                set({ feedback: 'wrong' });
+                set({ feedback: 'wrong', streak: 0 }); // Reset streak
 
                 // "Remove one of the selected syllables from the grid"
                 // Logic: Find one that isn't in the target word if possible, or random.

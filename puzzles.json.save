@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "p1",
+    "targetWord": "banana",
+    "definition": "A long curved fruit which grows in clusters.",
+    "difficulty": "easy",
+    "columns": [
+      ["ba", "ca", "da"],
+      ["na", "me", "pe"],
+      ["na", "lo", "mo"]
+    ]
+  },
+  {
+    "id": "p2",
+    "targetWord": "animal",
+    "definition": "A living organism that feeds on organic matter.",
+    "difficulty": "easy",
+    "columns": [
+      ["an", "en", "un"],
+      ["i", "a", "o"],
+      ["mal", "tal", "nal"]
+    ]
+  },
+  {
+    "id": "p3",
+    "targetWord": "camera",
+    "definition": "A device for recording visual images.",
+    "difficulty": "easy",
+    "columns": [
+      ["cam", "com", "can"],
+      ["er", "ar", "or"],
+      ["a", "o", "y"]
+    ]
+  },
+  {
+    "id": "p4",
+    "targetWord": "family",
+    "definition": "A group consisting of parents and children living together.",
+    "difficulty": "easy",
+    "columns": [
+      ["fam", "fan", "fon"],
+      ["i", "a", "e"],
+      ["ly", "ty", "ny"]
+    ]
+  },
+  {
+    "id": "p5",
+    "targetWord": "garden",
+    "definition": "A piece of ground used for growing flowers or vegetables.",
+    "difficulty": "easy",
+    "columns": [
+      ["gar", "gor", "gur"],
+      ["den", "don", "dan"],
+      ["er", "or", "ar"]
+    ]
+  },
+  {
+    "id": "p6",
+    "targetWord": "market",
+    "definition": "A regular gathering of people for the purchase and sale of provisions.",
+    "difficulty": "easy",
+    "columns": [
+      ["mar", "mor", "mer"],
+      ["ket", "kit", "kat"],
+      ["place", "space", "base"]
+    ]
+  },
+  {
+    "id": "p7",
+    "targetWord": "potato",
+    "definition": "A starchy plant tuber which is one of the most important food crops.",
+    "difficulty": "easy",
+    "columns": [
+      ["po", "pa", "pe"],
+      ["ta", "te", "ti"],
+      ["to", "do", "no"]
+    ]
+  },
+  {
+    "id": "p8",
+    "targetWord": "tomato",
+    "definition": "A glossy red, pulpy edible fruit that is typically eaten as a vegetable.",
+    "difficulty": "easy",
+    "columns": [
+      ["to", "do", "no"],
+      ["ma", "me", "mi"],
+      ["to", "do", "no"]
+    ]
+  },
+  {
+    "id": "p9",
+    "targetWord": "eleven",
+    "definition": "The number following ten.",
+    "difficulty": "easy",
+    "columns": [
+      ["e", "i", "a"],
+      ["lev", "liv", "lav"],
+      ["en", "an", "on"]
+    ]
+  },
+  {
+    "id": "p10",
+    "targetWord": "october",
+    "definition": "The tenth month of the year.",
+    "difficulty": "easy",
+    "columns": [
+      ["oc", "ac", "ic"],
+      ["to", "ta", "ti"],
+      ["ber", "bar", "bur"]
+    ]
+  },
+  {
+    "id": "p11",
+    "targetWord": "saturday",
+    "definition": "The day of the week before Sunday.",
+    "difficulty": "easy",
+    "columns": [
+      ["sat", "sit", "set"],
+      ["ur", "or", "er"],
+      ["day", "bay", "lay"]
+    ]
+  },
+  {
+    "id": "p12",
+    "targetWord": "holiday",
+    "definition": "A day of festivity or recreation when no work is done.",
+    "difficulty": "easy",
+    "columns": [
+      ["hol", "hal", "hil"],
+      ["i", "a", "e"],
+      ["day", "bay", "lay"]
+    ]
+  },
+  {
+    "id": "p13",
+    "targetWord": "hospital",
+    "definition": "An institution providing medical and surgical treatment.",
+    "difficulty": "easy",
+    "columns": [
+      ["hos", "has", "his"],
+      ["pi", "pa", "pe"],
+      ["tal", "tel", "tol"]
+    ]
+  },
+  {
+    "id": "p14",
+    "targetWord": "library",
+    "definition": "A building or room containing collections of books.",
+    "difficulty": "easy",
+    "columns": [
+      ["li", "la", "le"],
+      ["bra", "bro", "bru"],
+      ["ry", "ly", "ny"]
+    ]
+  },
+  {
+    "id": "p15",
+    "targetWord": "museum",
+    "definition": "A building in which objects of historical, scientific, artistic, or cultural interest are stored and exhibited.",
+    "difficulty": "easy",
+    "columns": [
+      ["mu", "ma", "mi"],
+      ["se", "si", "sa"],
+      ["um", "am", "em"]
+    ]
+  },
+  {
+    "id": "p16",
+    "targetWord": "bicycle",
+    "definition": "A vehicle composed of two wheels held in a frame one behind the other.",
+    "difficulty": "easy",
+    "columns": [
+      ["bi", "ba", "be"],
+      ["cy", "ci", "co"],
+      ["cle", "cal", "cel"]
+    ]
+  },
+  {
+    "id": "p17",
+    "targetWord": "umbrella",
+    "definition": "A folding canopy supported by wooden or metal ribs.",
+    "difficulty": "easy",
+    "columns": [
+      ["um", "un", "im"],
+      ["brel", "brol", "bril"],
+      ["la", "le", "li"]
+    ]
+  },
+  {
+    "id": "p18",
+    "targetWord": "violin",
+    "definition": "A stringed musical instrument of treble pitch, played with a horsehair bow.",
+    "difficulty": "easy",
+    "columns": [
+      ["vi", "va", "ve"],
+      ["o", "a", "e"],
+      ["lin", "lan", "len"]
+    ]
+  },
+  {
+    "id": "p19",
+    "targetWord": "telephone",
+    "definition": "A system for transmitting voices over a distance using wire or radio.",
+    "difficulty": "easy",
+    "columns": [
+      ["tel", "tal", "til"],
+      ["e", "i", "a"],
+      ["phone", "fane", "fine"]
+    ]
+  },
+  {
+    "id": "p20",
+    "targetWord": "radio",
+    "definition": "The transmission and reception of electromagnetic waves of radio frequency.",
+    "difficulty": "easy",
+    "columns": [
+      ["ra", "re", "ri"],
+      ["di", "da", "de"],
+      ["o", "a", "e"]
+    ]
+  },
+  {
+    "id": "p21",
+    "targetWord": "chocolate",
+    "definition": "A food preparation in the form of a paste or solid block made from roasted and ground cacao seeds.",
+    "difficulty": "easy",
+    "columns": [
+      ["cho", "cha", "chi"],
+      ["co", "ca", "ci"],
+      ["late", "lite", "lute"]
+    ]
+  },
+  {
+    "id": "p22",
+    "targetWord": "butterfly",
+    "definition": "A nectar-feeding insect with two pairs of large, typically brightly colored wings.",
+    "difficulty": "easy",
+    "columns": [
+      ["but", "bat", "bit"],
+      ["ter", "tar", "tir"],
+      ["fly", "fli", "fle"]
+    ]
+  },
+  {
+    "id": "p23",
+    "targetWord": "basketball",
+    "definition": "A game played between two teams of five players in which goals are scored by throwing a ball through a netted hoop.",
+    "difficulty": "easy",
+    "columns": [
+      ["bas", "bis", "bos"],
+      ["ket", "kit", "kat"],
+      ["ball", "bell", "bull"]
+    ]
+  },
+  {
+    "id": "p24",
+    "targetWord": "elephant",
+    "definition": "A heavy plant-eating mammal with a prehensile trunk, long curved ivory tusks, and large ears.",
+    "difficulty": "easy",
+    "columns": [
+      ["el", "al", "il"],
+      ["e", "i", "a"],
+      ["phant", "fent", "funt"]
+    ]
+  },
+  {
+    "id": "p25",
+    "targetWord": "energy",
+    "definition": "The strength and vitality required for sustained physical or mental activity.",
+    "difficulty": "easy",
+    "columns": [
+      ["en", "in", "an"],
+      ["er", "ir", "ar"],
+      ["gy", "ji", "jy"]
+    ]
+  },
+  {
+    "id": "p26",
+    "targetWord": "gallery",
+    "definition": "A room or building for the display or sale of works of art.",
+    "difficulty": "easy",
+    "columns": [
+      ["gal", "gol", "gul"],
+      ["ler", "lar", "lir"],
+      ["y", "ey", "iy"]
+    ]
+  },
+  {
+    "id": "p27",
+    "targetWord": "balcony",
+    "definition": "A platform enclosed by a wall or balustrade on the outside of a building.",
+    "difficulty": "easy",
+    "columns": [
+      ["bal", "bel", "bil"],
+      ["co", "ca", "cu"],
+      ["ny", "ni", "ne"]
+    ]
+  },
+  {
+    "id": "p28",
+    "targetWord": "uniform",
+    "definition": "The distinctive clothing worn by members of the same organization.",
+    "difficulty": "easy",
+    "columns": [
+      ["u", "yu", "oo"],
+      ["ni", "na", "ne"],
+      ["form", "farm", "firm"]
+    ]
+  },
+  {
+    "id": "p29",
+    "targetWord": "cinema",
+    "definition": "A theater where movies are shown for public entertainment.",
+    "difficulty": "easy",
+    "columns": [
+      ["cin", "sin", "cen"],
+      ["e", "i", "a"],
+      ["ma", "me", "mo"]
+    ]
+  },
+  {
+    "id": "p30",
+    "targetWord": "cabinet",
+    "definition": "A cupboard with shelves or drawers for storing or displaying articles.",
+    "difficulty": "easy",
+    "columns": [
+      ["cab", "cob", "cub"],
+      ["i", "a", "e"],
+      ["net", "nat", "nit"]
+    ]
+  },
+  {
+    "id": "p31",
+    "targetWord": "furniture",
+    "definition": "Large movable equipment, such as tables and chairs.",
+    "difficulty": "easy",
+    "columns": [
+      ["fur", "far", "fir"],
+      ["ni", "na", "ne"],
+      ["ture", "cher", "sure"]
+    ]
+  },
+  {
+    "id": "p32",
+    "targetWord": "dinosaur",
+    "definition": "A fossil reptile of the Mesozoic era.",
+    "difficulty": "easy",
+    "columns": [
+      ["di", "da", "de"],
+      ["no", "na", "ne"],
+      ["saur", "sor", "sar"]
+    ]
+  },
+  {
+    "id": "p33",
+    "targetWord": "gorilla",
+    "definition": "A powerfully built great ape with a large head and short neck.",
+    "difficulty": "easy",
+    "columns": [
+      ["go", "ga", "gu"],
+      ["ril", "ral", "rel"],
+      ["la", "le", "li"]
+    ]
+  },
+  {
+    "id": "p34",
+    "targetWord": "computer",
+    "definition": "An electronic device for storing and processing data.",
+    "difficulty": "medium",
+    "columns": [
+      ["com", "con", "cam"],
+      ["pu", "po", "pa"],
+      ["ter", "tar", "tor"]
+    ]
+  },
+  {
+    "id": "p35",
+    "targetWord": "solution",
+    "definition": "A means of solving a problem or dealing with a difficult situation.",
+    "difficulty": "medium",
+    "columns": [
+      ["so", "sa", "su"],
+      ["lu", "la", "li"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p36",
+    "targetWord": "opinion",
+    "definition": "A view or judgment formed about something, not necessarily based on fact.",
+    "difficulty": "medium",
+    "columns": [
+      ["o", "a", "e"],
+      ["pin", "pen", "pan"],
+      ["ion", "ian", "ean"]
+    ]
+  },
+  {
+    "id": "p37",
+    "targetWord": "example",
+    "definition": "A thing characteristic of its kind or illustrating a general rule.",
+    "difficulty": "medium",
+    "columns": [
+      ["ex", "ix", "ax"],
+      ["am", "em", "im"],
+      ["ple", "pal", "pel"]
+    ]
+  },
+  {
+    "id": "p38",
+    "targetWord": "condition",
+    "definition": "The state of something, especially with regard to its appearance, quality, or working order.",
+    "difficulty": "medium",
+    "columns": [
+      ["con", "com", "can"],
+      ["di", "de", "da"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p39",
+    "targetWord": "decision",
+    "definition": "A conclusion or resolution reached after consideration.",
+    "difficulty": "medium",
+    "columns": [
+      ["de", "di", "da"],
+      ["ci", "ce", "ca"],
+      ["sion", "tion", "cion"]
+    ]
+  },
+  {
+    "id": "p40",
+    "targetWord": "position",
+    "definition": "A place where someone or something is located or has been put.",
+    "difficulty": "medium",
+    "columns": [
+      ["po", "pa", "pe"],
+      ["si", "se", "sa"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p41",
+    "targetWord": "relation",
+    "definition": "The way in which two or more concepts, objects, or people are connected.",
+    "difficulty": "medium",
+    "columns": [
+      ["re", "ra", "ri"],
+      ["la", "le", "li"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p42",
+    "targetWord": "direction",
+    "definition": "A course along which someone or something moves.",
+    "difficulty": "medium",
+    "columns": [
+      ["di", "de", "da"],
+      ["rec", "rac", "ric"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p43",
+    "targetWord": "selection",
+    "definition": "The action or fact of carefully choosing someone or something as being the best or most suitable.",
+    "difficulty": "medium",
+    "columns": [
+      ["se", "si", "sa"],
+      ["lec", "lic", "lac"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p44",
+    "targetWord": "election",
+    "definition": "A formal and organized process of electing or being elected.",
+    "difficulty": "medium",
+    "columns": [
+      ["e", "i", "a"],
+      ["lec", "lic", "lac"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p45",
+    "targetWord": "infection",
+    "definition": "The process of infecting or the state of being infected.",
+    "difficulty": "medium",
+    "columns": [
+      ["in", "en", "an"],
+      ["fec", "fic", "fac"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p46",
+    "targetWord": "protection",
+    "definition": "A legal or other formal measure intended to preserve civil liberties and rights.",
+    "difficulty": "medium",
+    "columns": [
+      ["pro", "pre", "pra"],
+      ["tec", "tic", "tac"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p47",
+    "targetWord": "attention",
+    "definition": "Notice taken of someone or something; the regarding of someone or something as interesting or important.",
+    "difficulty": "medium",
+    "columns": [
+      ["at", "it", "et"],
+      ["ten", "tin", "tan"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p48",
+    "targetWord": "intention",
+    "definition": "A thing intended; an aim or plan.",
+    "difficulty": "medium",
+    "columns": [
+      ["in", "en", "an"],
+      ["ten", "tin", "tan"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p49",
+    "targetWord": "emotion",
+    "definition": "A natural instinctive state of mind deriving from one's circumstances, mood, or relationships.",
+    "difficulty": "medium",
+    "columns": [
+      ["e", "i", "a"],
+      ["mo", "ma", "mi"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p50",
+    "targetWord": "tradition",
+    "definition": "The transmission of customs or beliefs from generation to generation.",
+    "difficulty": "medium",
+    "columns": [
+      ["tra", "tro", "tre"],
+      ["di", "de", "da"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p51",
+    "targetWord": "ambition",
+    "definition": "A strong desire to do or to achieve something.",
+    "difficulty": "medium",
+    "columns": [
+      ["am", "em", "im"],
+      ["bi", "ba", "be"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p52",
+    "targetWord": "ignition",
+    "definition": "The action of setting something on fire or starting to burn.",
+    "difficulty": "medium",
+    "columns": [
+      ["ig", "ag", "eg"],
+      ["ni", "na", "ne"],
+      ["tion", "sion", "cion"]
+    ]
+  },
+  {
+    "id": "p53",
+    "targetWord": "magnetic",
+    "definition": "Exhibiting or relating to magnetism.",
+    "difficulty": "medium",
+    "columns": [
+      ["mag", "mig", "meg"],
+      ["net", "nat", "nit"],
+      ["ic", "ac", "ec"]
+    ]
+  },
+  {
+    "id": "p54",
+    "targetWord": "volcano",
+    "definition": "A mountain or hill, typically conical, having a crater or vent through which lava, rock fragments, hot vapor, and gas are being or have been erupted.",
+    "difficulty": "medium",
+    "columns": [
+      ["vol", "val", "vil"],
+      ["ca", "co", "cu"],
+      ["no", "na", "ni"]
+    ]
+  },
+  {
+    "id": "p55",
+    "targetWord": "tornado",
+    "definition": "A mobile, destructive vortex of violently rotating winds having the appearance of a funnel-shaped cloud.",
+    "difficulty": "medium",
+    "columns": [
+      ["tor", "tar", "tur"],
+      ["na", "ne", "ni"],
+      ["do", "da", "di"]
+    ]
+  },
+  {
+    "id": "p56",
+    "targetWord": "hurricane",
+    "definition": "A storm with a violent wind, in particular a tropical cyclone in the Caribbean.",
+    "difficulty": "medium",
+    "columns": [
+      ["hur", "har", "hir"],
+      ["ri", "ra", "re"],
+      ["cane", "can", "cen"]
+    ]
+  },
+  {
+    "id": "p57",
+    "targetWord": "atmosphere",
+    "definition": "The envelope of gases surrounding the earth or another planet.",
+    "difficulty": "medium",
+    "columns": [
+      ["at", "et", "it"],
+      ["mos", "mas", "mis"],
+      ["phere", "fere", "fare"]
+    ]
+  },
+  {
+    "id": "p58",
+    "targetWord": "gravity",
+    "definition": "The force that attracts a body toward the center of the earth.",
+    "difficulty": "medium",
+    "columns": [
+      ["grav", "griv", "grov"],
+      ["i", "a", "e"],
+      ["ty", "te", "ti"]
+    ]
+  },
+  {
+    "id": "p59",
+    "targetWord": "galaxy",
+    "definition": "A system of millions or billions of stars, together with gas and dust.",
+    "difficulty": "medium",
+    "columns": [
+      ["gal", "gol", "gul"],
+      ["ax", "ix", "ox"],
+      ["y", "i", "e"]
+    ]
+  },
+  {
+    "id": "p60",
+    "targetWord": "universe",
+    "definition": "All existing matter and space considered as a whole.",
+    "difficulty": "medium",
+    "columns": [
+      ["u", "yu", "oo"],
+      ["ni", "na", "ne"],
+      ["verse", "varse", "virse"]
+    ]
+  },
+  {
+    "id": "p61",
+    "targetWord": "satellite",
+    "definition": "An artificial body placed in orbit around the earth or moon or another planet.",
+    "difficulty": "medium",
+    "columns": [
+      ["sat", "sit", "set"],
+      ["el", "al", "il"],
+      ["lite", "late", "lute"]
+    ]
+  },
+  {
+    "id": "p62",
+    "targetWord": "astronaut",
+    "definition": "A person who is trained to travel in a spacecraft.",
+    "difficulty": "medium",
+    "columns": [
+      ["as", "es", "is"],
+      ["tro", "tra", "tre"],
+      ["naut", "not", "nat"]
+    ]
+  },
+  {
+    "id": "p63",
+    "targetWord": "telescope",
+    "definition": "An optical instrument designed to make distant objects appear nearer.",
+    "difficulty": "medium",
+    "columns": [
+      ["tel", "tal", "til"],
+      ["e", "a", "i"],
+      ["scope", "scape", "skype"]
+    ]
+  },
+  {
+    "id": "p64",
+    "targetWord": "microscope",
+    "definition": "An optical instrument used for viewing very small objects.",
+    "difficulty": "medium",
+    "columns": [
+      ["mi", "ma", "me"],
+      ["cro", "cra", "cri"],
+      ["scope", "scape", "skype"]
+    ]
+  },
+  {
+    "id": "p65",
+    "targetWord": "illusion",
+    "definition": "A thing that is or is likely to be wrongly perceived or interpreted by the senses.",
+    "difficulty": "medium",
+    "columns": [
+      ["il", "el", "al"],
+      ["lu", "la", "li"],
+      ["sion", "tion", "cion"]
+    ]
+  },
+  {
+    "id": "p66",
+    "targetWord": "republic",
+    "definition": "A state in which supreme power is held by the people and their elected representatives.",
+    "difficulty": "medium",
+    "columns": [
+      ["re", "ra", "ri"],
+      ["pub", "pab", "pib"],
+      ["lic", "lac", "lec"]
+    ]
+  },
+  {
+    "id": "p67",
+    "targetWord": "acyclic",
+    "definition": "Not displaying or forming part of a circle.",
+    "difficulty": "hard",
+    "columns": [
+      ["a", "e", "i"],
+      ["cy", "ci", "co"],
+      ["clic", "clac", "cloc"]
+    ]
+  },
+  {
+    "id": "p68",
+    "targetWord": "ephemeral",
+    "definition": "Lasting for a very short time.",
+    "difficulty": "hard",
+    "columns": [
+      ["e", "a", "i"],
+      ["phem", "fam", "fim"],
+      ["eral", "oral", "iral"]
+    ]
+  },
+  {
+    "id": "p69",
+    "targetWord": "paradigm",
+    "definition": "A typical example or pattern of something; a model.",
+    "difficulty": "hard",
+    "columns": [
+      ["par", "per", "pir"],
+      ["a", "e", "i"],
+      ["digm", "dim", "dam"]
+    ]
+  },
+  {
+    "id": "p70",
+    "targetWord": "synergy",
+    "definition": "The interaction or cooperation of two or more organizations to produce a combined effect greater than the sum of their separate effects.",
+    "difficulty": "hard",
+    "columns": [
+      ["syn", "sin", "sen"],
+      ["er", "ar", "ir"],
+      ["gy", "ji", "je"]
+    ]
+  },
+  {
+    "id": "p71",
+    "targetWord": "rhetoric",
+    "definition": "The art of effective or persuasive speaking or writing.",
+    "difficulty": "hard",
+    "columns": [
+      ["rhet", "ret", "rat"],
+      ["o", "a", "e"],
+      ["ric", "rac", "rec"]
+    ]
+  },
+  {
+    "id": "p72",
+    "targetWord": "aesthetic",
+    "definition": "Concerned with beauty or the appreciation of beauty.",
+    "difficulty": "hard",
+    "columns": [
+      ["aes", "as", "es"],
+      ["thet", "that", "thit"],
+      ["ic", "ac", "ec"]
+    ]
+  },
+  {
+    "id": "p73",
+    "targetWord": "cognitive",
+    "definition": "Concerned with the act or process of knowing, perceiving, etc.",
+    "difficulty": "hard",
+    "columns": [
+      ["cog", "cag", "cig"],
+      ["ni", "na", "ne"],
+      ["tive", "tove", "tave"]
+    ]
+  },
+  {
+    "id": "p74",
+    "targetWord": "dynamic",
+    "definition": "Characterized by constant change, activity, or progress.",
+    "difficulty": "hard",
+    "columns": [
+      ["dy", "di", "da"],
+      ["nam", "nom", "num"],
+      ["ic", "ac", "ec"]
+    ]
+  },
+  {
+    "id": "p75",
+    "targetWord": "kinetic",
+    "definition": "Relating to or resulting from motion.",
+    "difficulty": "hard",
+    "columns": [
+      ["ki", "ka", "ke"],
+      ["net", "nat", "nit"],
+      ["ic", "ac", "ec"]
+    ]
+  },
+  {
+    "id": "p76",
+    "targetWord": "organic",
+    "definition": "Relating to or derived from living matter.",
+    "difficulty": "hard",
+    "columns": [
+      ["or", "ar", "ur"],
+      ["gan", "gon", "gin"],
+      ["ic", "ac", "ec"]
+    ]
+  },
+  {
+    "id": "p77",
+    "targetWord": "quantum",
+    "definition": "A discrete quantity of energy proportional in magnitude to the frequency of the radiation it represents.",
+    "difficulty": "hard",
+    "columns": [
+      ["quan", "quin", "quon"],
+      ["t", "d", "p"],
+      ["um", "am", "em"]
+    ]
+  },
+  {
+    "id": "p78",
+    "targetWord": "zenith",
+    "definition": "The time at which something is most powerful or successful.",
+    "difficulty": "hard",
+    "columns": [
+      ["ze", "za", "zo"],
+      ["n", "m", "r"],
+      ["ith", "ath", "eth"]
+    ]
+  },
+  {
+    "id": "p79",
+    "targetWord": "vortex",
+    "definition": "A mass of whirling fluid or air, especially a whirlpool or whirlwind.",
+    "difficulty": "hard",
+    "columns": [
+      ["vor", "var", "vir"],
+      ["t", "d", "p"],
+      ["ex", "ax", "ix"]
+    ]
+  },
+  {
+    "id": "p80",
+    "targetWord": "quartet",
+    "definition": "A group of four people playing music or singing together.",
+    "difficulty": "hard",
+    "columns": [
+      ["quar", "qur", "qor"],
+      ["t", "d", "p"],
+      ["et", "at", "it"]
+    ]
+  },
+  {
+    "id": "p81",
+    "targetWord": "quintet",
+    "definition": "A group of five people playing music or singing together.",
+    "difficulty": "hard",
+    "columns": [
+      ["quin", "quan", "quon"],
+      ["t", "d", "p"],
+      ["et", "at", "it"]
+    ]
+  },
+  {
+    "id": "p82",
+    "targetWord": "sextet",
+    "definition": "A group of six people playing music or singing together.",
+    "difficulty": "hard",
+    "columns": [
+      ["sex", "sax", "six"],
+      ["t", "d", "p"],
+      ["et", "at", "it"]
+    ]
+  },
+  {
+    "id": "p83",
+    "targetWord": "septet",
+    "definition": "A group of seven people playing music or singing together.",
+    "difficulty": "hard",
+    "columns": [
+      ["sep", "sap", "sip"],
+      ["t", "d", "p"],
+      ["et", "at", "it"]
+    ]
+  },
+  {
+    "id": "p84",
+    "targetWord": "octet",
+    "definition": "A group of eight people playing music or singing together.",
+    "difficulty": "hard",
+    "columns": [
+      ["oc", "ac", "ic"],
+      ["t", "d", "p"],
+      ["et", "at", "it"]
+    ]
+  },
+  {
+    "id": "p85",
+    "targetWord": "nonet",
+    "definition": "A group of nine people playing music or singing together.",
+    "difficulty": "hard",
+    "columns": [
+      ["non", "nan", "nun"],
+      ["t", "d", "p"],
+      ["et", "at", "it"]
+    ]
+  },
+  {
+    "id": "p86",
+    "targetWord": "decade",
+    "definition": "A period of ten years.",
+    "difficulty": "hard",
+    "columns": [
+      ["dec", "dac", "dic"],
+      ["a", "e", "i"],
+      ["de", "da", "do"]
+    ]
+  },
+  {
+    "id": "p87",
+    "targetWord": "century",
+    "definition": "A period of one hundred years.",
+    "difficulty": "hard",
+    "columns": [
+      ["cen", "cin", "can"],
+      ["tu", "ti", "ta"],
+      ["ry", "ly", "ny"]
+    ]
+  },
+  {
+    "id": "p88",
+    "targetWord": "millennium",
+    "definition": "A period of a thousand years.",
+    "difficulty": "hard",
+    "columns": [
+      ["mil", "mal", "mel"],
+      ["len", "lan", "lin"],
+      ["nium", "neum", "num"]
+    ]
+  },
+  {
+    "id": "p89",
+    "targetWord": "equinox",
+    "definition": "The time or date (twice each year) at which the sun crosses the celestial equator.",
+    "difficulty": "hard",
+    "columns": [
+      ["eq", "aq", "iq"],
+      ["ui", "ua", "ue"],
+      ["nox", "nix", "nax"]
+    ]
+  },
+  {
+    "id": "p90",
+    "targetWord": "solstice",
+    "definition": "Either of the two times in the year when the sun reaches its highest or lowest point in the sky at noon.",
+    "difficulty": "hard",
+    "columns": [
+      ["sol", "sal", "sil"],
+      ["s", "c", "z"],
+      ["tice", "tace", "toce"]
+    ]
+  },
+  {
+    "id": "p91",
+    "targetWord": "eclipse",
+    "definition": "An obscuring of the light from one celestial body by the passage of another between it and the observer.",
+    "difficulty": "hard",
+    "columns": [
+      ["e", "a", "i"],
+      ["clipse", "clapse", "clopse"],
+      ["s", "c", "z"]
+    ]
+  },
+  {
+    "id": "p92",
+    "targetWord": "nebula",
+    "definition": "A cloud of gas and dust in outer space.",
+    "difficulty": "hard",
+    "columns": [
+      ["neb", "nab", "nib"],
+      ["u", "a", "o"],
+      ["la", "le", "li"]
+    ]
+  },
+  {
+    "id": "p93",
+    "targetWord": "supernova",
+    "definition": "A star that suddenly increases greatly in brightness because of a catastrophic explosion.",
+    "difficulty": "hard",
+    "columns": [
+      ["su", "sa", "so"],
+      ["per", "par", "pir"],
+      ["nova", "nava", "niva"]
+    ]
+  },
+  {
+    "id": "p94",
+    "targetWord": "blackhole",
+    "definition": "A region of space having a gravitational field so intense that no matter or radiation can escape.",
+    "difficulty": "hard",
+    "columns": [
+      ["black", "block", "bleck"],
+      ["ho", "ha", "he"],
+      ["le", "la", "li"]
+    ]
+  },
+  {
+    "id": "p95",
+    "targetWord": "quasar",
+    "definition": "A massive and extremely remote celestial object.",
+    "difficulty": "hard",
+    "columns": [
+      ["qua", "qui", "quo"],
+      ["s", "z", "c"],
+      ["ar", "or", "er"]
+    ]
+  },
+  {
+    "id": "p96",
+    "targetWord": "pulsar",
+    "definition": "A celestial object, thought to be a rapidly rotating neutron star.",
+    "difficulty": "hard",
+    "columns": [
+      ["pul", "pol", "pal"],
+      ["s", "z", "c"],
+      ["ar", "or", "er"]
+    ]
+  },
+  {
+    "id": "p97",
+    "targetWord": "neutron",
+    "definition": "A subatomic particle of about the same mass as a proton but without an electric charge.",
+    "difficulty": "hard",
+    "columns": [
+      ["neu", "nau", "niu"],
+      ["t", "d", "p"],
+      ["ron", "ran", "rin"]
+    ]
+  },
+  {
+    "id": "p98",
+    "targetWord": "proton",
+    "definition": "A stable subatomic particle occurring in all atomic nuclei.",
+    "difficulty": "hard",
+    "columns": [
+      ["pro", "pra", "pre"],
+      ["t", "d", "p"],
+      ["on", "an", "en"]
+    ]
+  },
+  {
+    "id": "p99",
+    "targetWord": "electron",
+    "definition": "A stable subatomic particle with a charge of negative electricity.",
+    "difficulty": "hard",
+    "columns": [
+      ["e", "a", "i"],
+      ["lec", "lac", "lic"],
+      ["tron", "tran", "trin"]
+    ]
+  },
+  {
+    "id": "p100",
+    "targetWord": "photon",
+    "definition": "A particle representing a quantum of light or other electromagnetic radiation.",
+    "difficulty": "hard",
+    "columns": [
+      ["pho", "pha", "phi"],
+      ["t", "d", "p"],
+      ["on", "an", "en"]
+    ]
+  }
+]
