@@ -61,7 +61,39 @@ export default function Home() {
       <AnimatePresence mode="wait">
 
         {/* IDLE STATE */}
-        {/* ... (start screen stays same) ... */}
+        {status === 'idle' && (
+          <motion.div
+            key="start-screen"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="text-center space-y-8 glass-panel p-10 rounded-3xl w-full"
+          >
+            <div className="space-y-2">
+              <h1 className="text-6xl font-black tracking-tight text-gradient">LexiLink</h1>
+              <p className="text-xl text-[hsl(var(--muted-foreground))]">The Syllabic Speed-Word Challenge</p>
+            </div>
+
+            <div className="flex justify-center gap-8 py-8">
+              <div className="flex flex-col items-center gap-2">
+                <div className="w-16 h-16 rounded-2xl bg-[hsl(var(--primary))]/20 flex items-center justify-center text-[hsl(var(--primary))]">
+                  <Brain size={32} />
+                </div>
+                <span className="text-sm font-semibold">Brain Training</span>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <div className="w-16 h-16 rounded-2xl bg-[hsl(var(--accent))]/20 flex items-center justify-center text-[hsl(var(--accent))]">
+                  <Trophy size={32} />
+                </div>
+                <span className="text-sm font-semibold">Speed Run</span>
+              </div>
+            </div>
+
+            <Button size="lg" onClick={handleStart} className="w-full text-xl h-16">
+              Start Challenge
+            </Button>
+          </motion.div>
+        )}
 
         {/* PLAYING STATE */}
         {status === 'playing' && currentPuzzle && (
