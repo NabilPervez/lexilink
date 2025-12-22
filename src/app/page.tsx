@@ -9,10 +9,47 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Timer, AlertTriangle, Trophy, Brain, Flame } from 'lucide-react';
 import { cn } from '@/components/ui/Button';
 
-// ... (useMounted stays same) ...
+// Helper to prevent hydration mismatch for client-only random data
+function useMounted() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => setMounted(true), 0);
+    return () => clearTimeout(timer);
+  }, []);
+  return mounted;
+}
 
 export default function Home() {
-  // ... (hooks stay same) ...
+  const mounted = useMounted();
+  const {
+    status,
+    puzzles,
+    currentRound,
+    timer,
+    strikes,
+    score,
+    selectedSyllables,
+    feedback,
+    startGame,
+    selectSyllable,
+    tick,
+    resetGame
+  } = useGameStore();
+
+  useEffect(() => {
+    let interval: NodeJS.Timeout;
+    if (status === 'playing') {
+      interval = setInterval(() => {
+        tick();
+      }, 1000);
+    }
+    return () => clearInterval(interval);
+  }, [status, tick]);
+
+  const handleStart = () => {
+    const newSet = generateGameSet();
+    startGame(newSet);
+  };
 
   const currentPuzzle = puzzles[currentRound];
 
