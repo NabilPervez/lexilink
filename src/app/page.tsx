@@ -9,6 +9,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Timer, AlertTriangle, Trophy, Brain, Flame } from 'lucide-react';
 import { cn } from '@/components/ui/Button';
 
+import { playSound } from '@/lib/sounds';
+
 // Helper to prevent hydration mismatch for client-only random data
 function useMounted() {
   const [mounted, setMounted] = useState(false);
@@ -38,6 +40,32 @@ export default function Home() {
     resetGame
   } = useGameStore();
 
+  // Sound Effects
+  useEffect(() => {
+    if (feedback === 'correct') playSound('correct');
+    if (feedback === 'wrong') playSound('wrong');
+  }, [feedback]);
+
+  useEffect(() => {
+    // Play tick tock in last 5 seconds
+    if (status === 'playing' && timer > 0 && timer <= 5) {
+      playSound('tick');
+    }
+  }, [timer, status]);
+
+  // Track round changes for level up sound
+  const [prevRound, setPrevRound] = useState(currentRound);
+  useEffect(() => {
+    if (currentRound > prevRound && status === 'playing') {
+      playSound('levelUp');
+    }
+    setPrevRound(currentRound);
+  }, [currentRound, prevRound, status]);
+
+  useEffect(() => {
+    if (status === 'won') playSound('win');
+  }, [status]);
+
   useEffect(() => {
     let interval: NodeJS.Timeout;
     if (status === 'playing') {
@@ -49,8 +77,14 @@ export default function Home() {
   }, [status, tick]);
 
   const handleStart = () => {
+    playSound('select');
     const newSet = generateGameSet();
     startGame(newSet);
+  };
+
+  const handleSelectSyllable = (s: any) => {
+    playSound('select');
+    selectSyllable(s);
   };
 
   const currentPuzzle = puzzles[currentRound];
@@ -198,7 +232,7 @@ export default function Home() {
             <SyllableGrid
               puzzle={currentPuzzle}
               selected={selectedSyllables}
-              onSelect={selectSyllable}
+              onSelect={handleSelectSyllable}
               disabled={!!feedback}
               disabledSyllables={disabledSyllables}
             />
@@ -234,7 +268,7 @@ export default function Home() {
               </div>
             </div>
 
-            <Button onClick={resetGame} variant="secondary" className="w-full h-14 text-lg mt-6">
+            <Button onClick={() => { playSound('select'); resetGame(); }} variant="secondary" className="w-full h-14 text-lg mt-6">
               Play Again
             </Button>
 
