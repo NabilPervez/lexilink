@@ -14,6 +14,9 @@ export const useGameStore = create<GameStore>((set, get) => ({
     score: 0,
     streak: 0,
 
+    attempts: 0,
+    disabledSyllables: [],
+
     selectedSyllables: [null, null, null],
     feedback: null,
 
@@ -25,12 +28,14 @@ export const useGameStore = create<GameStore>((set, get) => ({
         strikes: 0,
         score: 0,
         streak: 0,
+        attempts: 0,
+        disabledSyllables: [],
         selectedSyllables: [null, null, null],
         feedback: null,
     }),
 
     selectSyllable: (syllable) => {
-        const { status, selectedSyllables, puzzles, currentRound, strikes, streak } = get();
+        const { status, selectedSyllables, puzzles, currentRound, strikes, streak, attempts, disabledSyllables } = get();
         if (status !== 'playing') return;
 
         // Update selection for the specific column
@@ -60,33 +65,81 @@ export const useGameStore = create<GameStore>((set, get) => ({
                             selectedSyllables: [null, null, null],
                             feedback: null,
                             score: state.score + 100 + (state.timer * 10) + (newStreak * 50), // Bonus for streak
+                            attempts: 0,
+                            disabledSyllables: []
                         }));
                     }
                 }, 500);
             } else {
                 // Incorrect
-                const newStrikes = strikes + 1;
-                set({ feedback: 'wrong', streak: 0 }); // Reset streak
+                const currentAttempts = attempts + 1;
 
-                // "Remove one of the selected syllables from the grid"
-                // Logic: Find one that isn't in the target word if possible, or random.
-                // Complex logic: The grid has 3 columns. One of these choices MUST be wrong.
-                // We will remove the one that is NOT part of the Correct Sequence for this column?
-                // Actually, the correct sequence is known.
-                // Let's remove the selection for now and handle "removing from grid" in the UI via a "disabled" prop if we tracked it?
-                // For now, simpler: Just clear and strike.
+                if (currentAttempts < 3) {
+                    // Find distractor to remove
+                    const c0s = currentPuzzle.columns[0];
+                    const c1s = currentPuzzle.columns[1];
+                    const c2s = currentPuzzle.columns[2];
+                    const correctIds = new Set<string>();
 
-                setTimeout(() => {
-                    if (newStrikes >= 3) {
-                        set({ status: 'lost', strikes: 3, feedback: null });
-                    } else {
+                    // Identify correct syllables
+                    for (const s0 of c0s) {
+                        for (const s1 of c1s) {
+                            for (const s2 of c2s) {
+                                if ((s0.text + s1.text + s2.text).toLowerCase() === currentPuzzle.targetWord.toLowerCase()) {
+                                    correctIds.add(s0.id);
+                                    correctIds.add(s1.id);
+                                    correctIds.add(s2.id);
+                                }
+                            }
+                        }
+                    }
+
+                    const allSyllables = [...c0s, ...c1s, ...c2s];
+                    const candidates = allSyllables.filter(s => !correctIds.has(s.id) && !disabledSyllables.includes(s.id));
+
+                    let newDisabled = [...disabledSyllables];
+                    if (candidates.length > 0) {
+                        const randomDistractor = candidates[Math.floor(Math.random() * candidates.length)];
+                        newDisabled.push(randomDistractor.id);
+                    }
+
+                    set({ feedback: 'wrong', streak: 0 });
+
+                    setTimeout(() => {
                         set({
-                            strikes: newStrikes,
+                            attempts: currentAttempts,
+                            disabledSyllables: newDisabled,
                             selectedSyllables: [null, null, null],
                             feedback: null
                         });
-                    }
-                }, 500);
+                    }, 500);
+
+                } else {
+                    // 3rd attempt -> Strike and Next
+                    const newStrikes = strikes + 1;
+                    set({ feedback: 'wrong', streak: 0 }); // Reset streak
+
+                    setTimeout(() => {
+                        if (newStrikes >= 3) {
+                            set({ status: 'lost', strikes: 3, feedback: null });
+                        } else {
+                            // Next round or finish
+                            const isLastRound = currentRound === 9;
+                            if (isLastRound) {
+                                set({ status: 'won', feedback: null });
+                            } else {
+                                set({
+                                    strikes: newStrikes,
+                                    currentRound: currentRound + 1,
+                                    selectedSyllables: [null, null, null],
+                                    feedback: null,
+                                    attempts: 0,
+                                    disabledSyllables: []
+                                });
+                            }
+                        }
+                    }, 500);
+                }
             }
         }
     },

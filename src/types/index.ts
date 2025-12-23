@@ -27,6 +27,8 @@ export interface GameState {
     // Selection state
     selectedSyllables: [Syllable | null, Syllable | null, Syllable | null];
     feedback: 'neutral' | 'correct' | 'wrong' | null;
+    attempts: number;
+    disabledSyllables: string[];
 
     // Actions
     startGame: (puzzles: Puzzle[]) => void;

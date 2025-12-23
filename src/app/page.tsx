@@ -30,6 +30,8 @@ export default function Home() {
     score,
     selectedSyllables,
     feedback,
+    attempts,
+    disabledSyllables,
     startGame,
     selectSyllable,
     tick,
@@ -198,6 +200,7 @@ export default function Home() {
               selected={selectedSyllables}
               onSelect={selectSyllable}
               disabled={!!feedback}
+              disabledSyllables={disabledSyllables}
             />
 
           </motion.div>
