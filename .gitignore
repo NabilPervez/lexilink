@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Android (TWA) build output and signing keys: never commit
+*.keystore
+*.jks
+*.pem
+twa/app/
+twa/build/
+twa/.gradle/
+twa/*.aab
+twa/*.apk
+twa/*.idsig

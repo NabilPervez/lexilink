@@ -13,14 +13,13 @@ export const metadata: Metadata = {
   title: "LexiLink: Syllabic Speed-Word",
   description: "A fast-paced word construction game. Solve 10 puzzles in 60 seconds.",
   manifest: "/manifest.json",
+  icons: { icon: "/icons/favicon-48.png", apple: "/icons/apple-touch-icon.png" },
 };
 
 export const viewport: Viewport = {
   themeColor: "#0f172a",
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false, // For game feel
 };
 
 export default function RootLayout({
